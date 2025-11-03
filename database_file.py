@@ -1,3 +1,8 @@
+""""
+Database file for Hotel Management System
+
+"""
+
 import sqlite3
 
 # Initialize database
