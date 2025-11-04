@@ -1,5 +1,6 @@
 """"
 Database file for Hotel Management System
+In this file, we create the database tables and define functions to insert and fetch data for hotels and users.
 
 """
 
