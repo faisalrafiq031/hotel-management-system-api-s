@@ -1,3 +1,28 @@
+"""
+practice_Server.py
+------------------
+
+This module implements a simple RESTful API using Python's built-in `http.server`
+for managing hotel and user data in the 'Hotel_Management_System.db' SQLite database.
+
+Features:
+- Handle CRUD operations for Hotels and Users.
+- Supports GET, POST, PUT, DELETE methods.
+- Implements CORS headers for browser compatibility.
+- Dynamic routes for sorting, filtering, and location-based queries.
+
+Classes:
+- Building_api_requests: Handles incoming HTTP requests and routes them accordingly.
+
+Functions:
+- get_database_connection(): Returns an active SQLite connection.
+- run(): Starts the HTTP server on the specified port (default: 5000).
+
+Usage:
+    python practice_Server.py
+"""
+
+
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import sqlite3
