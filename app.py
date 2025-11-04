@@ -1,3 +1,20 @@
+"""
+app.py
+--------
+
+This script initializes the hotel management database and allows
+the user to insert hotel and user data through the command line.
+
+Functions:
+- Initializes database tables.
+- Collects hotel details (name, rooms, location, rating, price).
+- Collects user details (after hotel input ends).
+
+Run:
+    python app.py
+"""
+
+
 from database_file import init_db, insert_hotel, insert_user
 
 
